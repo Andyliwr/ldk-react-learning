@@ -16,7 +16,12 @@ class Hello extends Component {
         opacity = 1.0;
       }
       this.setState({ opacity });
+      // this.setState((preState, props) => ({ opacity: preState.opacity - 0.05 }));
     }, 100);
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.timer);
   }
 
   render() {

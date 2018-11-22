@@ -1,0 +1,30 @@
+.index-card {
+  width: 100%;
+  overflow: hidden;
+  transition: 0.3s;
+  padding: 12px 15px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #4f4f4f;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  .index-card-title {
+    color: #fff;
+    font-size: smaller;
+  }
+  .index-card-des {
+    color: #999;
+    font-size: small;
+    margin-top: 4px;
+  }
+  & > button {
+    outline: none;
+    border: none;
+    background-color: #61dafb;
+    color: #000000;
+    padding: 6px 12px;
+    border-radius: 2px;
+    white-space: nowrap;
+  }
+}

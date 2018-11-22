@@ -1,14 +1,15 @@
-.App {
+.home {
   text-align: center;
+  height: 100%;
+  overflow: hidden;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
+.home-logo {
+  animation: home-logo-spin infinite 20s linear;
   height: 40vmin;
 }
 
-.App-header {
-  background-color: #282c34;
+.home-header {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -18,11 +19,12 @@
   color: white;
 }
 
-.App-link {
+.home-link {
   color: #61dafb;
+  margin-top: 4px;
 }
 
-@keyframes App-logo-spin {
+@keyframes home-logo-spin {
   from {
     transform: rotate(0deg);
   }
