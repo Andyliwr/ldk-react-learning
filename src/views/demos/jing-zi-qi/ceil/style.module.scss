@@ -1,0 +1,18 @@
+.ceil {
+  float: left;
+  background: #20232a;
+  color: #ffffff;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  border-right: 1px solid #414347;
+  border-bottom: 1px solid #414347;
+  box-sizing: border-box;
+  &:nth-child(n + 7) {
+    border-bottom: none;
+  }
+  &:nth-child(3n) {
+    border-right: none;
+  }
+}

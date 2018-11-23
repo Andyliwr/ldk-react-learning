@@ -1,0 +1,51 @@
+.jing-zi-qi {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  .title {
+    color: #999;
+    font-weight: bold;
+    font-size: large;
+    padding: 10px 0;
+  }
+}
+.square {
+  display: block;
+  width: 180px;
+  height: 180px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.info {
+  width: 70%;
+  color: #999;
+  font-size: calc(11px + 1vmin);
+}
+.history {
+  list-style: none;
+  height: 100px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-top: 6px;
+  border: 1px solid #414347;
+  border-radius: 4px;
+  p {
+    padding: 2px 5px;
+  }
+}
+.status {
+  padding: 5px 0;
+}
+.back {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url('../../../static/images/back.png');
+  background-size: 100% 100%;
+  vertical-align: middle;
+  position: relative;
+  top: -2px;
+  margin-left: 10px;
+}
